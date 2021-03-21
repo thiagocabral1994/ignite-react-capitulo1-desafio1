@@ -16,7 +16,6 @@ export function TaskList() {
 
   function handleCreateNewTask() {
     if (!newTaskTitle) {
-      alert("Escreve um todo!");
       return;
     }
 
